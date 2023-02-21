@@ -3,7 +3,7 @@
         opacity: 0;
     }
     4% {
-        transform: translateY(100px) rotate3d(1, 0.5, 0, 30deg);
+        transform: translateY(100px) rotate3d(1, 0.5, 0, 20deg);
     }
     20% {
         opacity: 0;
@@ -13,7 +13,7 @@
     }
     100% { 
         opacity: 1;
-        transform: translateY(0px) rotate3d(0, 0, 0, 30deg);
+        transform: translateY(0px) rotate3d(1, 0, 0, 0deg);
     }
   }
 

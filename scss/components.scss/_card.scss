@@ -1,5 +1,6 @@
 .card {
     background-color: $fill-surface;
+    transform-origin: top center;
     position: relative;
     height: fit-content;
     padding: 32px;
