@@ -4,7 +4,7 @@ function renderCard(cardData) {
 
     let cardTemplate = `
     <div class="card">
-        <img src="${cardData.thumbnail}" class="thumbnail" alt="">
+        <img src=".${cardData.thumbnail}" class="thumbnail" alt="">
         <div class="time-stamp">7 min</div>
         <div class="content">
             <div class="info">
@@ -44,7 +44,7 @@ function renderLikedCard(cardData) {
 
     let cardTemplate = `
     <div class="card liked">
-        <img src="${cardData.thumbnail}" class="thumbnail" alt="">
+        <img src=".${cardData.thumbnail}" class="thumbnail" alt="">
         <div class="time-stamp">7 min</div>
         <div class="content">
             <div class="info">
