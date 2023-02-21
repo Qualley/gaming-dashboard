@@ -21,7 +21,7 @@ function watch() {
             baseDir: './'
         }
     });
-    gulp.watch('./scss/**/*.scss', compilescss);
+    gulp.watch('./scss/**/*.scss', compilescss).on('change', browserSync.reload);
     gulp.watch('./*.html').on('change', browserSync.reload);
     gulp.watch('./*.js').on('change', browserSync.reload);
 }

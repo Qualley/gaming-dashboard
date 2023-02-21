@@ -1,9 +1,17 @@
 @keyframes fadeUp { 
-    from { 
+    0% {
         opacity: 0;
+    }
+    4% {
         transform: translateY(100px) rotate3d(1, 0.5, 0, 30deg);
     }
-    to { 
+    20% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1
+    }
+    100% { 
         opacity: 1;
         transform: translateY(0px) rotate3d(0, 0, 0, 30deg);
     }
