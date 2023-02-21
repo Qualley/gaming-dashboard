@@ -1,0 +1,21 @@
+@keyframes fadeUp { 
+    from { 
+        opacity: 0;
+        transform: translateY(100px) rotate3d(1, 0.5, 0, 30deg);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0px) rotate3d(0, 0, 0, 30deg);
+    }
+  }
+
+  @keyframes bgIn { 
+    from { 
+        opacity: 0;
+        transform: scale(1.1)
+    }
+    to { 
+        opacity: 1;
+        transform: scale(1)
+    }
+  }

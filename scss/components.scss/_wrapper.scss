@@ -1,0 +1,21 @@
+.wrapper {
+    position: relative;
+    padding: 160px 40px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    h1{
+        opacity: 0;
+        animation: fadeUp 1s cubic-bezier(0.42, 0, 0.08, 0.98);
+        animation-delay: 0.75s;
+        letter-spacing: 1px;
+        animation-direction: forwards;
+        animation-fill-mode: forwards;
+    }
+}
+

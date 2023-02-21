@@ -1,0 +1,4 @@
+.hero {
+    @include flex($align-i: center);
+    height: 90vh;
+}
