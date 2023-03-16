@@ -35,7 +35,7 @@ export let data = [
         liked: false,
         created: '3 days ago',
         author: {
-            name: 'Dale Dongface',
+            name: 'Keenan Morton',
             photo: './img/user-3.png',
             verefied: true,
             online: true,
@@ -49,15 +49,15 @@ export let data = [
         liked: true,
         created: '3 days ago',
         author: {
-            name: 'Dale Dongface',
+            name: 'Paige Shaw',
             photo: './img/user-3.png',
             verefied: true,
             online: true,
         }
     },
     {
-        title: 'Battle Beaver vs Scuff, Who will take the title',
-        thumbnail: '/img/img-1.png',
+        title: 'Clean desk setup and how it helps productivity.',
+        thumbnail: '/img/img-5.png',
         views: '187,922',
         likes: '87',
         liked: false,
@@ -91,7 +91,7 @@ export let data = [
         liked: true,
         created: '3 days ago',
         author: {
-            name: 'Dale Dongface',
+            name: 'Joao Brooks',
             photo: './img/user-3.png',
             verefied: true,
             online: true,
@@ -105,7 +105,7 @@ export let data = [
         liked: true,
         created: '3 days ago',
         author: {
-            name: 'Dale Dongface',
+            name: 'Joao Brooks',
             photo: './img/user-3.png',
             verefied: true,
             online: true,

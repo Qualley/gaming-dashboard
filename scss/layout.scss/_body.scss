@@ -6,15 +6,4 @@ body {
     background-color: $fill-canvas;
     display: flex; 
     flex-direction: row;
-
-    .bg {
-      position: absolute;
-      top: 0;
-      opacity: 0;
-      height: 400px;
-      animation: bgIn 2s cubic-bezier(0.42, 0, 0.08, 0.98);
-      animation-delay: 0s;
-      animation-direction: forwards;
-      animation-fill-mode: forwards;
-    }
   }
